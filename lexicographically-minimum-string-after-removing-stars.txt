@@ -1,0 +1,11 @@
+class Solution {
+        public String clearStars(String s) {
+                Deque<Integer>[] g = new Deque[26];
+                        Arrays.setAll(g, k -> new ArrayDeque<>());
+                                int n = s.length();
+                                        boolean[] rem = new boolean[n];
+                                                for (int i = 0; i < n; ++i) {
+                                                            if (s.charAt(i) == '*') {
+                                                                            rem[i] = true;
+                                                                                            for (int j = 0; j < 26; ++j) {
+…}
