@@ -1,0 +1,11 @@
+public class ZigZag_Conversion {
+
+        public class Solution {
+                public String convert(String s, int nRows) {
+                            if (s == null || s.length() <= nRows || nRows == 1) {
+                                            return s;
+                                                        }
+                                                                    StringBuilder sb = new StringBuilder();
+                                                                       …                                                                        if (i == 0 || i == nRows - 1) {
+…                                                                                                                                                                                                                                                                                                                                                                                                        }
+}
