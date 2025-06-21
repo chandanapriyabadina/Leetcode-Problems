@@ -1,0 +1,14 @@
+class Solution {
+        private char[] s;
+            private int k;
+
+                public int maxDistance(String s, int k) {
+                        this.s = s.toCharArray();
+                                this.k = k;
+                                        int a = calc('S', 'E');
+                                                int b = calc('S', 'W');
+                                                        int c = calc('N', 'E');
+…                                                            …       }
+                                                                                                                                                                                                                                            return ans;
+                                                                                                                                                                                                                                                }
+}
