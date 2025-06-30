@@ -1,0 +1,15 @@
+class MyQueue {
+        private Deque<Integer> stk1 = new ArrayDeque<>();
+            private Deque<Integer> stk2 = new ArrayDeque<>();
+
+                public MyQueue() {
+                    }
+
+                        public void push(int x) {
+                                stk1.push(x);
+                                    }
+…stk2.push(stk1.pop());
+                                                                                                                                                   …    }
+                                                                                                                                                                }
+                                                                                                                                                                    }
+                                                                                                                                                                    }
